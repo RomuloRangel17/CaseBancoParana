@@ -3,7 +3,7 @@ Este script Python realiza testes nos verbos HTTP (GET, POST, PUT, DELETE) em um
 O objetivo deste script é verificar se os endpoints da API retornam os resultados esperados e se o JSON retornado atende ao esquema especificado.
 
 # Automação Web - /Automation/case_web_automation_PB.py
-Este script em Python utiliza Selenium para realizar automação na interface web do site "[The Internet](https://the-internet.herokuapp.com/challenging_dom)". O script clica em três botões diferentes na página principal e, para cada botão, realiza ações adicionais, como clicar nos botões "Edit" e "Delete" em uma tabela.
+Este script em Python utiliza Selenium para realizar automação na interface web do site "[The Internet](https://the-internet.herokuapp.com/challenging_dom)". O script clica em três botões diferentes na página principal e, para cada botão, realiza ações adicionais, clicando nos botões "Edit" e "Delete" em uma tabela.
 
 # Estudo de caso - Case/Case.pdf
 Esse arquivo pdf tem como objetivo demonstrar os cenários de testes desenhados, baseado no caso proposto na atividade 1. Para isso, foram abordados:
