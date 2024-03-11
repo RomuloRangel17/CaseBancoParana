@@ -5,7 +5,7 @@ from jsonschema import validate
 # URL da API
 api_url = "https://jsonplaceholder.typicode.com/users"
 
-# Função para validar o JSON schema
+# Validar o JSON schema
 def validate_json_schema(response_json, schema):
     try:
         validate(response_json, schema)
@@ -14,7 +14,7 @@ def validate_json_schema(response_json, schema):
         print(f"Erro na validação do JSON schema: {e}")
         return False
 
-# Teste para o verbo GET
+# GET
 def test_get_request():
     response = requests.get(api_url)
     assert response.status_code == 200, f"Erro no GET request. HTTP code: {response.status_code}"
@@ -41,9 +41,9 @@ def test_get_request():
     assert validate_json_schema(response.json(), users_schema), "Erro na validação do JSON schema para GET"
     print(f"Teste GET bem-sucedido! Status Code: {response.status_code}")
 
-# Teste para o verbo POST
+# POST
 def test_post_request():
-    # Dados de exemplo para o POST
+    # Dados fictícios para realizar o POST
     post_data = {
         "name": "John Doe",
         "username": "johndoe",
@@ -67,11 +67,9 @@ def test_post_request():
     assert validate_json_schema(response.json(), post_response_schema), "Erro na validação do JSON schema para POST"
     print(f"Teste POST bem-sucedido! Status Code: {response.status_code}")
 
-    # Você pode adicionar mais validações conforme necessário
-
-# Teste para o verbo PUT
+# Teste PUT
 def test_put_request():
-    # Supondo que você tenha obtido um ID válido de um usuário existente
+    # Supondo que tenhamos obtido um ID válido de um usuário existente
     user_id = 1
 
     # Dados de exemplo para o PUT
@@ -94,11 +92,9 @@ def test_put_request():
     assert validate_json_schema(response.json(), put_response_schema), "Erro na validação do JSON schema para PUT"
     print(f"Teste PUT bem-sucedido! Status Code: {response.status_code}")
 
-    # Você pode adicionar mais validações conforme necessário
-
-# Teste para o verbo DELETE
+# Teste DELETE
 def test_delete_request():
-    # Supondo que você tenha obtido um ID válido de um usuário existente
+    # Supondo que tenhamos obtido um ID válido de um usuário existente
     user_id = 1
 
     response = requests.delete(f"{api_url}/{user_id}")
