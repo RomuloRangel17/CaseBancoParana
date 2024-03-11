@@ -8,11 +8,11 @@ Este script em Python utiliza Selenium para realizar automação na interface we
 # Estudo de caso - Case/Case.pdf
 Esse arquivo pdf tem como objetivo demonstrar os cenários de testes desenhados, baseado no caso proposto na atividade 1. Para isso, foram abordados:
 
--Estratégia de teste
--Abordagens de teste
--Tipos/níveis de teste
--Ferramentas
--Atuação
+- Estratégia de teste
+- Abordagens de teste
+- Tipos/níveis de teste
+- Ferramentas
+- Atuação
 
 ## Pré-requisitos
 
