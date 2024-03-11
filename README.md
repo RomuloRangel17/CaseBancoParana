@@ -1,6 +1,6 @@
 # Teste de API
 
-Este script Python realiza os testes propostos nos cenários 2 do desafio do Paraná Banco para validar os verbos HTTP GET, POST, PUT e DELETE.
+Este script Python realiza os testes propostos no cenário 2 do desafio do Paraná Banco para validar os verbos HTTP (GET, POST, PUT e DELETE).
 
 ## Objetivo
 
