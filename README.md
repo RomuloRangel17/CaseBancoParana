@@ -24,12 +24,12 @@ Esse arquivo pdf tem como objetivo demonstrar os cenários de testes desenhados,
 Clone este repositório e instale as dependências necessárias usando o seguinte comando:
 https://github.com/RomuloRangel17/CaseBancoParana.git
 
-pip install requests jsonschema
-pip install selenium
+- pip install requests jsonschema
+- pip install selenium
 
 ## Execução
 Feito a instalação dos pacotes necessários e o clone do projeto, dentro da pasta do projeto, basta executar os seguintes comandos:
-- python ./case_api_automation_PB.py
-- python ./case_web_automation_PB.py
 
 ```bash
+- python ./case_api_automation_PB.py
+- python ./case_web_automation_PB.py
