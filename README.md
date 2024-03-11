@@ -27,3 +27,8 @@ https://github.com/RomuloRangel17/CaseBancoParana.git
 ```bash
 pip install requests jsonschema
 pip install selenium
+
+## Execução
+Feito a instalação dos pacotes necessários e o clone do projeto, dentro da pasta do projeto, basta executar os seguintes comandos:
+- python ./case_api_automation_PB.py
+- python ./case_web_automation_PB.py
